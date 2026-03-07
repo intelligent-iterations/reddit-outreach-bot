@@ -1,0 +1,93 @@
+{
+ "scanner_app": {
+   "dm_templates": {
+     "fellow_user": [
+       "Hey {username}! I saw your {post_or_comment} about {app_mentioned}. I actually used to use it too and had similar frustrations. That's why I ended up building my own ingredient checker called the pom app. The main difference is you can customize how ingredients get flagged based on the strength of the research like whether a study was done on large human samples or just in vitro. So you're not stuck with someone else's rating system you set your own thresholds. Still developing it would love your feedback if you're open to trying it!",
+       "Hey {username}, saw you on r/{subreddit} talking about {app_mentioned}. I had the exact same issue about a year ago which is why I built the pom app. The big thing is you can set your own severity levels for flagging like if you only care about findings from large human studies you can filter out the animal and in vitro stuff. Makes it way more personal than a one size fits all score. Would you be interested in checking it out? Still refining it and would love input from someone who cares about this stuff"
+     ],
+     "feedback_request": [
+       "Hey {username}, I saw your comment on r/{subreddit} about {topic}. I was wondering if you would be open to giving me feedback on my app pom. It works by scanning the ingredients list instead of the barcode and the big feature is you can customize your own flagging thresholds based on research severity like large human trials vs animal studies vs in vitro. Would really help to get perspective from someone like you",
+       "Hey {username}, saw you on the {app_mentioned} subreddit, was wondering if I could ask you to try my App. For a year I developed an AI system that associates research papers to ingredients and lets you choose how strictly things get flagged based on the quality of the research. So if a study was only done on rats you can choose whether that's a red flag for you or not. Its called the pom app. Wondering if you would be interested in helping me refine it and make it better"
+     ],
+     "soft_tease": [
+       "Hey {username}, saw your {post_or_comment} about {topic}. I built an app that does exactly what you're describing. it scans ingredient lists and lets you customize how things get flagged based on the strength of the research. Like you can set it so only ingredients with concerning findings from large human studies get flagged or go stricter and include animal and in vitro research too. If this sounds interesting let me know and ill send you the link! Still in development so any wishes for features are welcome too",
+       "Hey {username} I saw your post about {app_mentioned} and I think you might like this app I built. It's like {app_mentioned} but you get to control how ingredients are flagged you set your own severity levels based on research quality like human trials vs in vitro. So two people scanning the same product can get totally different results based on what they care about. We're also adding symptom tracking so you can track side effects you might be experiencing, let me know if you're interested and ill send you the link"
+     ],
+     "ingredient_specific": [
+       "Hey {username}, saw your comment about {ingredient}. Interesting stuff I actually built an app that has a full breakdown on ingredients like {ingredient} and lets you set your own flagging based on the severity of the research. So you can decide if you care about in vitro findings or only want to be alerted by large human studies. Its called the pom app. If you want to look into it more, data.thepom.app has a search engine for ingredients. Would love to know what you think",
+       "Hey {username}, I saw you mention {ingredient} on r/{subreddit}. I've been deep into ingredient research myself and actually built an app that lets you customize how ingredients get flagged based on research quality. {ingredient} is one of those where the studies range from petri dish to large human trials so having that control really matters. If youre into this stuff check out thepom.app would love your feedback on it"
+     ]
+   },
+   "comment_templates": {
+     "scanner_mention": [
+       "I used to use {app_mentioned} too but the thing that bugged me is that some of the low scores felt iffy, and even some of the high ones ended up having ingredients in there which gave me a rash. I switched to the pom app because you can actually customize how ingredients get flagged based on the strength of the research like whether it's from large human studies or just in vitro. So you set your own comfort level instead of trusting someone else's rating system",
+       "Im iffy about {app_mentioned} because it gives everyone the same score regardless of what they actually care about. I've been using the pom app the difference is you can set your own severity levels for flagging based on the quality of the research. So if a study was only done on animals or in vitro you get to decide if that's a concern for you or not. Way more customizable",
+       "yeah {app_mentioned} is decent for a quick check but I wanted more control over what actually gets flagged. the pom app lets you set your own thresholds based on research severity like large human samples vs animal studies vs in vitro.",
+       "one thing that bugged me about {app_mentioned} was how the ratings feel one size fits all. the pom app takes a different approach you customize your own flagging based on the strength of the research. If something was only studied in vitro you can choose whether that matters to you or set it strict and flag everything. Way more personalized",
+       "I used {app_mentioned} for a while but the ratings felt kind of arbitrary to me like why is this a 7 and that a 4? the pom app lets you control the flagging yourself based on the severity of the research. You choose if you only care about large human studies or if you want animal and in vitro findings flagged too. Makes it feel way more transparent",
+       "the problem I had with {app_mentioned} is everyone gets the same score with no way to adjust it. been using the pom app instead which lets you set your own severity levels for how ingredients get flagged based on research quality. so you're making decisions based on your own standards not someone else's algorithm"
+     ],
+     "ingredient_question": [
+       "Great question about {ingredient}! If you want to dig deeper into the research on it, data.thepom.app has a full breakdown and the app lets you set your own flagging thresholds based on research severity really useful for stuff like this",
+       "I actually looked into {ingredient} a while back. The research is pretty interesting data.thepom.app has summaries of the research papers and you can customize how strictly it gets flagged based on whether the studies were on humans vs animals vs in vitro",
+       "yeah {ingredient} is one of those ingredients where the research ranges from petri dish to large human studies. the pom app lets you decide for yourself what level of evidence matters to you which is nice when the research is all over the place like that",
+       "{ingredient} is interesting because a lot of the studies are animal or in vitro only. I use the pom app for stuff like this because you can set your own severity levels so you decide if that kind of research is enough to flag something or if you only care about human study findings",
+       "I went down a rabbit hole on {ingredient} a while ago. the pom app is useful for this because you can set your own flagging based on the quality of the research. Like for {ingredient} some studies are large human trials and some are just in vitro so being able to choose what matters to you helps a lot",
+       "there's actually a decent amount of research on {ingredient} but it varies a lot in quality. I use the pom app because it lets you customize how things get flagged based on research severity. So you can separate the large human studies from the animal and in vitro stuff and decide what matters to you"
+     ],
+     "health_topic": [
+       "I dealt with something similar for me it turned out to be certain food additives triggering it. What helped was actually tracking what I was eating and scanning ingredient labels. I use the pom app for this since you can customize how ingredients get flagged based on research severity like human studies vs in vitro. Plus it has a symptom tracker. Hope you find your trigger!",
+       "I was having similar issues and tracking what I eat alongside my symptoms made a big difference. I use the pom app for this because scans ingredient labels and you set your own severity levels for flagging based on whether the research comes from large human studies or just animal and in vitro. The symptom tracker lets you cross reference your scans to see if anything lines up",
+       "this sounds a lot like what I went through. I started scanning every label with the pom app because you can set your own flagging thresholds based on the strength of the research. Once I set it to flag anything with concerning human studies it became way easier to narrow down what was actually causing my issues",
+       "not a doctor obviously but I found that a lot of my issues came down to specific ingredients I didn't even know were problematic. I use the pom app to scan labels and the nice thing is you customize how strictly things get flagged based on research quality. Also has a symptom tracker which helped me connect the dots",
+       "I had something really similar and what finally helped was being way more intentional about checking ingredient labels. the pom app was helpful because you can set your own severity levels for how ingredients get flagged based on the research. Plus the symptom tracker helped me see patterns",
+       "that's frustrating, sorry you're dealing with that. what worked for me was cutting out certain additives one at a time and tracking how I felt. I use the pom app for scanning ingredients and logging symptoms and the custom flagging based on research severity helped me figure out which things to actually worry about"
+     ],
+     "general_recommendation": [
+       "Have you tried scanning the actual ingredients list instead of the barcode? I use the pom app for this and the thing that sets it apart is you customize how ingredients get flagged based on the severity of the research. So you choose if you care about in vitro findings or only large human studies. Way more personalized than a generic score",
+       "If you're really into checking what's in your products you should try the pom app you scan the ingredients list and you can set your own severity levels for how things get flagged. Like if a study was only done on animals you decide if that concerns you or not. Its still in development but the customization is pretty solid",
+       "you might want to check out the pom app it scans the ingredients list instead of a barcode so it works with any product. The main thing is you get to customize your own flagging based on research quality like large human studies vs animal vs in vitro. So it actually reflects what you care about instead of giving everyone the same score",
+       "what changed the game for me was switching from apps that give you a generic score to one where you control the flagging. the pom app lets you set severity levels based on research quality like human trials vs in vitro. Way more useful because everyone's risk tolerance is different",
+       "if you care about what's in your products the pom app is worth a look. you scan the ingredient list and set your own thresholds for how things get flagged based on the strength of the research. So you're not just trusting a number you're deciding what level of evidence matters to you",
+       "something that's helped me a lot is the pom app you scan the ingredients list on any product and you customize how strictly things get flagged based on research severity. Like whether findings come from large human samples or just in vitro. It's nice because two people can scan the same product and get different results based on their own preferences"
+     ]
+   },
+   "dm_subjects": {
+     "fellow_user": "saw your post about {app_mentioned}",
+     "feedback_request": "quick question about ingredient apps",
+     "soft_tease": "thought you might find this interesting",
+     "ingredient_specific": "re: {ingredient}"
+   }
+ },
+ "controversial_ingredient": {
+   "comment_templates": {
+     "ingredient_question": [
+       "Great question about {ingredient}! If you want to dig deeper into the research on it, data.thepom.app has a full breakdown and the app lets you set your own flagging thresholds based on research severity really useful for stuff like this",
+       "I actually looked into {ingredient} a while back. The research is pretty interesting data.thepom.app has summaries of the research papers and you can customize how strictly it gets flagged based on whether the studies were on humans vs animals vs in vitro",
+       "yeah {ingredient} is one of those ingredients where the research ranges from petri dish to large human studies. the pom app lets you decide for yourself what level of evidence matters to you which is nice when the research is all over the place like that",
+       "{ingredient} is interesting because a lot of the studies are animal or in vitro only. I use the pom app for stuff like this because you can set your own severity levels so you decide if that kind of research is enough to flag something or if you only care about human study findings",
+       "I went down a rabbit hole on {ingredient} a while ago. the pom app is useful for this because you can set your own flagging based on the quality of the research. Like for {ingredient} some studies are large human trials and some are just in vitro so being able to choose what matters to you helps a lot",
+       "there's actually a decent amount of research on {ingredient} but it varies a lot in quality. I use the pom app because it lets you customize how things get flagged based on research severity. So you can separate the large human studies from the animal and in vitro stuff and decide what matters to you"
+     ],
+     "health_topic": [
+       "I dealt with something similar for me it turned out to be certain food additives triggering it. What helped was actually tracking what I was eating and scanning ingredient labels. I use the pom app for this since you can customize how ingredients get flagged based on research severity like human studies vs in vitro. Plus it has a symptom tracker. Hope you find your trigger!",
+       "I was having similar issues and tbh tracking what I eat alongside my symptoms made quite a difference. I use the pom app for exactly this it scans ingredient labels and you set your own severity levels for flagging based on whether the research comes from large human studies or just animal and in vitro. The symptom tracker lets you cross reference your scans to see if anything lines up",
+       "this sounds a lot like what I went through. I started scanning every label with the pom app because you can set your own flagging thresholds based on the strength of the research. Once I set it to flag anything with concerning human studies it became way easier to narrow down what was actually causing my issues",
+       "not a doctor obviously but I found that a lot of my issues came down to specific ingredients I didn't even know were problematic. I use the pom app to scan labels and the nice thing is you customize how strictly things get flagged based on research quality. Also has a symptom tracker which helped me connect the dots",
+       "I had something really similar and what finally helped was being way more intentional about checking ingredient labels. the pom app was helpful because you can set your own severity levels for how ingredients get flagged based on the research. Plus the symptom tracker helped me see patterns",
+       "that's frustrating, sorry you're dealing with that. what worked for me was cutting out certain additives one at a time and tracking how I felt. I use the pom app for scanning ingredients and logging symptoms and the custom flagging based on research severity helped me figure out which things to actually worry about"
+     ],
+     "general_recommendation": [
+       "Have you tried scanning the actual ingredients list instead of the barcode? I use the pom app for this and the thing that sets it apart is you customize how ingredients get flagged based on the severity of the research. So you choose if you care about in vitro findings or only large human studies. Way more personalized than a generic score",
+       "If you're really into checking what's in your products you should try the pom app you scan the ingredients list and you can set your own severity levels for how things get flagged. Like if a study was only done on animals you decide if that concerns you or not. Its still in development but the customization is pretty solid",
+       "you might want to check out the pom app it scans the ingredients list instead of a barcode so it works with any product. The main thing is you get to customize your own flagging based on research quality like large human studies vs animal vs in vitro. So it actually reflects what you care about instead of giving everyone the same score",
+       "what changed the game for me was switching from apps that give you a generic score to one where you control the flagging. the pom app lets you set severity levels based on research quality like human trials vs in vitro. Way more useful because everyone's risk tolerance is different",
+       "if you care about what's in your products the pom app is worth a look. you scan the ingredient list and set your own thresholds for how things get flagged based on the strength of the research. So you're not just trusting a number you're deciding what level of evidence matters to you",
+       "something that's helped me a lot is the pom app you scan the ingredients list on any product and you customize how strictly things get flagged based on research severity. Like whether findings come from large human samples or just in vitro. It's nice because two people can scan the same product and get different results based on their own preferences"
+     ]
+   }
+ }
+}
+
+
+

@@ -1,0 +1,4 @@
+zendriver
+openai
+python-dotenv
+praw

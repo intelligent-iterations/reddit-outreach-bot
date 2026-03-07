@@ -1,0 +1,92 @@
+{
+  "accounts": [
+    {
+      "username": "your_reddit_username",
+      "password": "your_reddit_password",
+      "can_dm": true,
+      "can_comment": true,
+      "cookies_path": "data/cookies_your_reddit_username.json"
+    }
+  ],
+
+  "ramp_schedule": {
+    "days_1_to_3":  { "max_dms": 5,  "max_comments": 10 },
+    "days_4_to_7":  { "max_dms": 8,  "max_comments": 15 },
+    "days_8_plus":  { "max_dms": 10, "max_comments": 25 }
+  },
+
+  "search": {
+    "keywords_scanner": [
+      "yuka app",
+      "ingredient scanner",
+      "ingredient checker"
+    ],
+    "keywords_ingredients": [
+      "propylene glycol",
+      "sodium benzoate",
+      "red 40"
+    ],
+    "subreddits_priority": [
+      "YourTargetSubreddit1",
+      "YourTargetSubreddit2"
+    ],
+    "search_type": "comment",
+    "sort": "new",
+    "time_filter": "month",
+    "max_leads_per_keyword": 50,
+    "max_post_age_days": 180
+  },
+
+  "delays": {
+    "between_dms_min_seconds": 720,
+    "between_dms_max_seconds": 1080,
+    "between_actions_min_seconds": 180,
+    "between_actions_max_seconds": 480,
+    "between_searches_min_seconds": 30,
+    "between_searches_max_seconds": 90,
+    "page_load_wait_seconds": 3,
+    "typing_delay_min_ms": 50,
+    "typing_delay_max_ms": 150,
+    "click_delay_min_seconds": 1,
+    "click_delay_max_seconds": 3
+  },
+
+  "strategies": {
+    "scanner_app": {
+      "enabled": true,
+      "keywords": [
+        "yuka app",
+        "ingredient scanner"
+      ],
+      "allowed_actions": ["dm", "comment"],
+      "templates_key": "scanner_app",
+      "prompt_file": "prompts/scanner_app.txt"
+    },
+    "controversial_ingredient": {
+      "enabled": true,
+      "keywords": [
+        "propylene glycol",
+        "sodium benzoate"
+      ],
+      "allowed_actions": ["comment"],
+      "templates_key": "controversial_ingredient",
+      "prompt_file": "prompts/controversial_ingredient.txt"
+    }
+  },
+
+  "grok": {
+    "model": "grok-4",
+    "base_url": "https://api.x.ai/v1",
+    "temperature": 0.3,
+    "max_tokens": 16384,
+    "max_leads_per_batch": 50,
+    "max_retries": 2
+  },
+
+  "app_links": {
+    "main": "yourapp.com",
+    "ingredient_search": "data.yourapp.com"
+  },
+
+  "max_consecutive_failures": 3
+}

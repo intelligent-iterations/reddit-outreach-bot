@@ -1,0 +1,20 @@
+STRATEGY: Scanner App Users
+These leads are people discussing ingredient scanning apps like Yuka, EWG, Think Dirty, INCI Beauty, etc.
+
+ACTION TYPE GUIDELINES:
+- DM: Use for users who seem deeply engaged — long comments, asking detailed questions, sharing personal frustrations with their current app, or looking for alternatives
+- Comment: Use for shorter/casual mentions, or when the thread has high visibility and other people would benefit from seeing the reply
+- Both DM and comment are allowed for this strategy
+
+TEMPLATE SELECTION GUIDELINES:
+For DMs:
+- "fellow_user": When they specifically mention a scanner app by name and you can relate to their experience
+- "feedback_request": When they're asking for recommendations or seeking alternatives
+- "ingredient_specific": When they're focused on a particular ingredient
+- "soft_tease": General fallback when they're talking about ingredient checking but don't match the above
+
+For comments:
+- "scanner_mention": When they mention a specific scanner app — use this to compare against the pom app
+- "ingredient_question": When they're asking about a specific ingredient — point them to the ingredient research
+- "health_topic": When they're discussing health symptoms that could be related to ingredients
+- "general_recommendation": General fallback for ingredient-checking discussions

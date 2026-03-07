@@ -1,0 +1,18 @@
+STRATEGY: Controversial Ingredient Discussions
+These leads are people discussing specific controversial or potentially harmful ingredients (e.g. Red 40, propylene glycol, sodium benzoate, titanium dioxide, etc.).
+
+ACTION TYPE GUIDELINES:
+- Comment only for this strategy — do NOT recommend DMs
+- These are public discussions where a helpful comment adds value and visibility
+
+TEMPLATE SELECTION GUIDELINES:
+For comments:
+- "ingredient_question": When the user is specifically asking about an ingredient's safety, effects, or research — point them to the pom app's ingredient research database
+- "health_topic": When the user connects an ingredient to health symptoms they're experiencing
+- "general_recommendation": When the discussion is broadly about ingredient safety or checking labels but no single ingredient is the focus
+
+IMPORTANT CONTEXT:
+- The pom app helps users understand that controversial ingredients often appear under different names
+- Focus on being genuinely helpful and educational, not salesy
+- These leads are often in health, nutrition, skincare, or parenting subreddits
+- Match the tone of the thread — if it's a serious health discussion, be respectful and measured

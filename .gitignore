@@ -1,0 +1,45 @@
+# Environment and secrets
+.env
+*.env
+config.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+.pytest_cache/
+
+# Session data
+reddit-bot/data/cookies*.json
+reddit-bot/data/state.json
+reddit-bot/data/contacted.json
+reddit-bot/data/commented.json
+reddit-bot/data/*.lock
+
+# Runtime data
+reddit-bot/run-data/
+reddit-bot/data/execution_screenshots/
+reddit-bot/data/*.png
+reddit-bot/data/*.html
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (if any)
+node_modules/
