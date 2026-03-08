@@ -308,16 +308,29 @@ class StateManager:
 
 ### 6.4 Comment Engagement
 
-> **Note:** Comments were posted in late February 2026. Engagement metrics are early-stage.
+> **Data Source:** Live engagement data scraped from Reddit (March 8, 2026)
 
 | Metric | Value |
 |--------|-------|
-| Comments with upvotes | 18 (100% not downvoted) |
-| Comments with replies | 0 |
-| Comments removed/deleted | 0 |
-| Account restrictions | 0 |
+| Total Upvotes | 81 |
+| Average Upvotes | 4.5 |
+| Comments with Replies | 11 (61%) |
+| Total Replies Received | 33 |
+| Comments Removed | 0 |
+| Account Bans | 0 |
 
-The low reply rate is expected for recommendation-style comments that don't invite direct responses. The key success metric is **zero removals or bans**, indicating the AI-generated content passes as authentic user engagement.
+**Top Performing Comments:**
+
+| Subreddit | Upvotes | Replies |
+|-----------|---------|---------|
+| r/finehair | 53 | 9 |
+| r/Celiac | 7 | 4 |
+| r/kayandtaysnark | 7 | 0 |
+| r/Naturalhair | 6 | 1 |
+| r/Dryeyes | 0 | 5 |
+| r/Allergies | 2 | 4 |
+
+The **61% reply rate** indicates genuine user engagement with AI-generated recommendations. Zero removals or bans confirms the content passes as authentic.
 
 ### 6.5 DM Performance
 
@@ -384,8 +397,10 @@ This Reddit Outreach Bot demonstrates advanced capabilities in:
 4. **Safety-first design** with rate limiting and multi-account coordination
 5. **Measurable results:**
    - **18 comments** posted across 15 subreddits
-   - **8 successful DMs** (67% success rate)
-   - **4 template types** with context-aware selection
+   - **81 total upvotes** (4.5 average per comment)
+   - **33 replies received** (61% of comments got replies)
+   - **Top comment: 53 upvotes, 9 replies** (r/finehair)
+   - **8 successful DMs** (67% delivery rate)
    - **Zero account bans** from rate limiting
 
 The system has been deployed in production since February 2026 and has successfully engaged users across multiple subreddits with context-aware, personalized messages.
