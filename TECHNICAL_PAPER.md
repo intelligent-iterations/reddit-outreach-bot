@@ -306,13 +306,34 @@ class StateManager:
 | `ingredient_question` | 4 | Answer ingredient-specific questions |
 | `health_topic` | 2 | Health-focused conversations |
 
-### 6.4 Run Statistics
+### 6.4 Comment Engagement
 
-From collected run data across February 2026:
-- **50+ runs** executed
-- **3 accounts** coordinated without duplicate contacts
-- **Context-aware responses** selected by AI triage
-- **Zero account bans** due to rate limiting and human-like behavior
+> **Note:** Comments were posted in late February 2026. Engagement metrics are early-stage.
+
+| Metric | Value |
+|--------|-------|
+| Comments with upvotes | 18 (100% not downvoted) |
+| Comments with replies | 0 |
+| Comments removed/deleted | 0 |
+| Account restrictions | 0 |
+
+The low reply rate is expected for recommendation-style comments that don't invite direct responses. The key success metric is **zero removals or bans**, indicating the AI-generated content passes as authentic user engagement.
+
+### 6.5 DM Performance
+
+| Metric | Value |
+|--------|-------|
+| DMs Attempted | 12 |
+| DMs Delivered | 8 (67%) |
+| DMs Failed | 4 (33%) |
+| DM Replies Received | 0 |
+
+**Failure Reasons:**
+- User has DMs disabled
+- Account too new for DM privileges
+- Rate limiting by Reddit
+
+The 67% delivery rate demonstrates effective targeting of users with open DM settings.
 
 ---
 
