@@ -111,13 +111,13 @@ For each lead:
 {
   "users": {
     "johndoe": {
-      "claimed_by": "This_Photo5976",
+      "claimed_by": "another_user",
       "claimed_at": "2026-02-19T15:00:00",
       "actions": [
         {
           "type": "comment",
           "target": "/r/YukaApp/comments/...",
-          "account": "This_Photo5976",
+          "account": "another_user",
           "result": "success",
           "timestamp": "2026-02-19T15:00:00",
           "message_preview": "...",
@@ -128,7 +128,7 @@ For each lead:
   },
   "threads": {
     "abc123": {
-      "claimed_by": "Working_Golf72",
+      "claimed_by": "example_user",
       "claimed_at": "2026-02-19T14:00:00",
       "permalink": "/r/sub/comments/abc123/title/"
     }
@@ -250,7 +250,7 @@ python -m src.main
 python -m src.main --dry-run
 
 # Single account
-python -m src.main --account This_Photo5976
+python -m src.main --account another_user
 
 # Override limits
 python -m src.main --max-dms 5 --max-comments 10

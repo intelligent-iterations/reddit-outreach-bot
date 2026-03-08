@@ -333,7 +333,7 @@ run-data/
   "run_id": "2026-02-20_15-30-00",
   "started_at": "2026-02-20T15:30:00",
   "completed_at": "2026-02-20T16:45:00",
-  "accounts": ["Working_Golf72"],
+  "accounts": ["example_user"],
   "strategies_run": ["scanner_app"],
   "dry_run": false,
   "total_actions": 15,
@@ -547,7 +547,7 @@ python -m src.main
 python -m src.main --dry-run
 
 # Single account
-python -m src.main --account This_Photo5976
+python -m src.main --account another_user
 
 # Single strategy
 python -m src.main --strategy scanner_app
@@ -562,7 +562,7 @@ python -m src.main --keywords "yuka app" "ingredient scanner"
 python -m src.main --no-triage
 
 # Combine flags
-python -m src.main --dry-run --strategy scanner_app --account Working_Golf72
+python -m src.main --dry-run --strategy scanner_app --account example_user
 
 # Print stats
 python -m src.main --stats
