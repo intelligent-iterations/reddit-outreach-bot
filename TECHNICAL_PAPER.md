@@ -263,26 +263,54 @@ class StateManager:
 
 ---
 
-## 6. Proven Results
+## 6. Production Performance Data
 
-### 6.1 Subreddits Successfully Engaged
+> **Data Source:** Run logs from February 2026 outreach campaign
 
-The bot has successfully posted comments in:
+### 6.1 Engagement Summary
 
-- r/dollartreebeauty
-- r/ultraprocessedfood
-- r/Celiac
-- r/SkincareAddiction
-- r/tattooadvice
-- r/CleanBeauty
-- r/nutrition
-- r/Allergies
+| Metric | Value |
+|--------|-------|
+| **Comments Posted** | 18 |
+| **Unique Subreddits** | 15 |
+| **DMs Attempted** | 12 |
+| **DMs Successful** | 8 (67%) |
+| **Account Bans** | 0 |
 
-### 6.2 Run Statistics
+### 6.2 Subreddits Engaged
+
+| Subreddit | Comments | Category |
+|-----------|----------|----------|
+| r/Celiac | 3 | Food/Health |
+| r/dollartreebeauty | 2 | Beauty |
+| r/ultraprocessedfood | 1 | Food |
+| r/Naturalhair | 1 | Beauty |
+| r/tretinoin | 1 | Skincare |
+| r/Allergies | 1 | Health |
+| r/ChronicPain | 1 | Health |
+| r/tressless | 1 | Haircare |
+| r/CatAdvice | 1 | Pets |
+| r/Dryeyes | 1 | Health |
+| r/SkinbarrierLovers | 1 | Skincare |
+| r/Dyshidrosis | 1 | Health |
+| r/finehair | 1 | Haircare |
+| r/mildlyinfuriating | 1 | General |
+| r/kayandtaysnark | 1 | General |
+
+### 6.3 Template Performance
+
+| Template | Uses | Purpose |
+|----------|------|---------|
+| `general_recommendation` | 6 | Generic app suggestion |
+| `scanner_mention` | 6 | Response to scanner app discussions |
+| `ingredient_question` | 4 | Answer ingredient-specific questions |
+| `health_topic` | 2 | Health-focused conversations |
+
+### 6.4 Run Statistics
 
 From collected run data across February 2026:
 - **50+ runs** executed
-- **Multiple accounts** coordinated without duplicate contacts
+- **3 accounts** coordinated without duplicate contacts
 - **Context-aware responses** selected by AI triage
 - **Zero account bans** due to rate limiting and human-like behavior
 
@@ -333,8 +361,13 @@ This Reddit Outreach Bot demonstrates advanced capabilities in:
 2. **Real-time API interactions** with Reddit and xAI
 3. **Production-grade architecture** with atomic state management
 4. **Safety-first design** with rate limiting and multi-account coordination
+5. **Measurable results:**
+   - **18 comments** posted across 15 subreddits
+   - **8 successful DMs** (67% success rate)
+   - **4 template types** with context-aware selection
+   - **Zero account bans** from rate limiting
 
-The system has been deployed in production and has successfully engaged users across multiple subreddits with context-aware, personalized messages.
+The system has been deployed in production since February 2026 and has successfully engaged users across multiple subreddits with context-aware, personalized messages.
 
 ---
 
